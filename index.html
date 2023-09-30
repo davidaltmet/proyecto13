@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Calculadora</title>
+  </head>
+  <body class="body">
+    <div class="contenedor">
+      <header class="hero">
+        <h1 class="logo">calc</h1>
+        <div class="cambio_color">
+          <div class="theme">
+            <h2 class="thme">Theme</h2>
+          </div>
+          <div class="num_swith">
+            <div class="nums">
+              <span class="num num1" onclick="moveCircleToPosition(1)">1</span>
+              <span class="num num2" onclick="moveCircleToPosition(2)">2</span>
+              <span class="num num3" onclick="moveCircleToPosition(3)">3</span>
+            </div>
+            <label class="switch">
+              <input id="miInterruptor" type="checkbox" />
+              <div class="slider">
+                <span class="circle"></span>
+              </div>
+            </label>
+          </div>
+        </div>
+      </header>
+      <div class="calculadora">
+        <input class="datos" type="text" readonly />
+        <div class="valores">
+          <div class="contendor_valores">
+            <button class="boton valor">7</button>
+            <button class="boton valor">8</button>
+            <button class="boton valor">9</button>
+            <button class="botonn borrar">DEL</button>
+            <button class="boton valor">4</button>
+            <button class="boton valor">5</button>
+            <button class="boton valor">6</button>
+            <button class="boton sumar">+</button>
+            <button class="boton valor">1</button>
+            <button class="boton valor">2</button>
+            <button class="boton valor">3</button>
+            <button class="boton restar">-</button>
+            <button class="boton valor punto">.</button>
+            <button class="boton valor">0</button>
+            <button class="boton dividir">/</button>
+            <button class="boton multiplicar">*</button>
+          </div>
+          <div class="reset_igual">
+            <button class="reset">Reset</button>
+            <button class="calcular">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "folders": [
+	{
+		"path": "../../../../../xampp/htdocs/ejercicios"
+	},
+	{
+		"path": "../../../../../actividad 3"
+	},
+	{
+		"path": "../../../../../xampp/htdocs/tarea"
+	},
+	{
+		"path": "../../../../../xampp/htdocs/farmacia"
+	},
+	{
+		"path": "../../../../../xampp/htdocs/proyecto final_2"
+	},
+	{
+		"path": "../../../Documents/actividad 3"
+	},
+	{
+		"path": "../../proyecto 7"
+	},
+	{
+		"path": "../../proyecto 9"
+	},
+	{
+		"path": "../../proyecto 10"
+	},
+	{
+		"path": "../../proyecto 11"
+	},
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../proyecto 12"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "proyecto 10"
+  }
+}
